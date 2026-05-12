@@ -1,0 +1,70 @@
+//
+// !!! WARNING !!! AUTO-GENERATED FILE!
+// PLEASE DO NOT MODIFY IT AND USE "platformio.ini":
+// https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags
+//
+{
+    "configurations": [
+        {
+            "name": "PlatformIO",
+            "includePath": [
+                "C:/Users/Aluno/Documents/PlatformIO/Projects/260512-130328-zephyr-blink/include",
+                "C:/Users/Aluno/Documents/PlatformIO/Projects/260512-130328-zephyr-blink/src",
+                "C:/Users/Aluno/.platformio/packages/framework-zephyr@2.20701.220422/include",
+                "C:/Users/Aluno/Documents/PlatformIO/Projects/260512-130328-zephyr-blink/.pio/build/frdm_k64f/zephyr/include/generated",
+                "C:/Users/Aluno/.platformio/packages/framework-zephyr@2.20701.220422/soc/arm/nxp_kinetis/k6x",
+                "C:/Users/Aluno/.platformio/packages/framework-zephyr@2.20701.220422/_pio/modules/hal/cmsis/CMSIS/Core/Include",
+                "C:/Users/Aluno/.platformio/packages/framework-zephyr@2.20701.220422/_pio/modules/hal/nxp/mcux/devices/MK64F12",
+                "C:/Users/Aluno/.platformio/packages/framework-zephyr@2.20701.220422/_pio/modules/hal/nxp/mcux/drivers/kinetis",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "C:/Users/Aluno/Documents/PlatformIO/Projects/260512-130328-zephyr-blink/include",
+                    "C:/Users/Aluno/Documents/PlatformIO/Projects/260512-130328-zephyr-blink/src",
+                    "C:/Users/Aluno/.platformio/packages/framework-zephyr@2.20701.220422/include",
+                    "C:/Users/Aluno/Documents/PlatformIO/Projects/260512-130328-zephyr-blink/.pio/build/frdm_k64f/zephyr/include/generated",
+                    "C:/Users/Aluno/.platformio/packages/framework-zephyr@2.20701.220422/soc/arm/nxp_kinetis/k6x",
+                    "C:/Users/Aluno/.platformio/packages/framework-zephyr@2.20701.220422/_pio/modules/hal/cmsis/CMSIS/Core/Include",
+                    "C:/Users/Aluno/.platformio/packages/framework-zephyr@2.20701.220422/_pio/modules/hal/nxp/mcux/devices/MK64F12",
+                    "C:/Users/Aluno/.platformio/packages/framework-zephyr@2.20701.220422/_pio/modules/hal/nxp/mcux/drivers/kinetis",
+                    ""
+                ]
+            },
+            "defines": [
+                "PLATFORMIO=60119",
+                "BUILD_VERSION=zephyr-v20701",
+                "BOARD_FLASH_SIZE=CONFIG_FLASH_SIZE*1024",
+                "CPU_MK64FN1M0VLL12",
+                "KERNEL",
+                "NDEBUG",
+                "_FORTIFY_SOURCE=2",
+                "__PROGRAM_START",
+                "__ZEPHYR__=1",
+                ""
+            ],
+            "cStandard": "c99",
+            "forcedInclude": [
+                "C:/Users/Aluno/Documents/PlatformIO/Projects/260512-130328-zephyr-blink/.pio/build/frdm_k64f/zephyr/include/generated/autoconf.h",
+                "C:/Users/Aluno/.platformio/packages/framework-zephyr@2.20701.220422/include/toolchain/zephyr_stdint.h",
+                ""
+            ],
+            "compilerPath": "C:/Users/Aluno/.platformio/packages/toolchain-gccarmnoneeabi@1.80201.181220/bin/arm-none-eabi-gcc.exe",
+            "compilerArgs": [
+                "-mcpu=cortex-m4",
+                "-mthumb",
+                "-mabi=aapcs",
+                "-mfp16-format=ieee",
+                "-isystem",
+                "C:/Users/Aluno/.platformio/packages/framework-zephyr@2.20701.220422/lib/libc/minimal/include",
+                "-isystem",
+                "c:/users/aluno/.platformio/packages/toolchain-gccarmnoneeabi@1.80201.181220/bin/../lib/gcc/arm-none-eabi/8.2.1/include",
+                "-isystem",
+                "c:/users/aluno/.platformio/packages/toolchain-gccarmnoneeabi@1.80201.181220/bin/../lib/gcc/arm-none-eabi/8.2.1/include-fixed",
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}
