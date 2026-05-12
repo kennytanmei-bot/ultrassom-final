@@ -1,27 +1,17 @@
-How to build PlatformIO based project
-=====================================
+Nesse repósitorio tem-se os códigos para que funcione o sensor de ultrassom em conjunto com os motores de corrente contínua no carrinho do projeto de microcontroladores 1. Pode-se usar os códigos desse repositório para apenas a impressão da distância calculada pelo sensor de ultrassom. Para que pudesse controlar a intensidade dos motores, foi usado a biblioteca PWM, assim pude ter maior precisão e menos dificuldade para cumprir o que se pedia na atividade.
+# Vídeos ultrassom
 
-1. [Install PlatformIO Core](https://docs.platformio.org/page/core.html)
-2. Download [development platform with examples](https://github.com/platformio/platform-freescalekinetis/archive/develop.zip)
-3. Extract ZIP archive
-4. Run these commands:
+### Primeira versão parando:
 
-```shell
-# Change directory to example
-$ cd platform-freescalekinetis/examples/zephyr-blink
+https://github.com/user-attachments/assets/03d91462-0558-4245-8334-84080be499c5
 
-# Build project
-$ pio run
+### Versão final calibrado:
 
-# Upload firmware
-$ pio run --target upload
+https://github.com/user-attachments/assets/23935502-3acb-4d63-971a-48e935804e2f
 
-# Build specific environment
-$ pio run -e frdm_k64f
 
-# Upload firmware for the specific environment
-$ pio run -e frdm_k64f --target upload
 
-# Clean build files
-$ pio run --target clean
-```
+
+
+
+
