@@ -16,8 +16,8 @@
 */
 
 #define TPM_MODULE 1000 
-#define m1 580
-#define m2 640
+#define m1 700
+#define m2 750
 
 #define ECHO_PORT GPIOE               // Porta onde chega o sinal ECHO
 #define ECHO_PIN  20                  // Pino do ECHO (ligado ao TPM para captura)
@@ -175,22 +175,22 @@ int re = 0;
             int d_int = (int)d;                 // Converte para inteiro (printk não usa float)
 
             printk("Distancia: %d cm\n", d_int);
-            if(d_int>23){
-            pwm_tpm_CnV(TPM0, 1,0); //tras 
-            pwm_tpm_CnV(TPM0, 2,m1); //frente
-            pwm_tpm_CnV(TPM0, 3,m2-20); //frente
-            pwm_tpm_CnV(TPM0, 5,0); //tras
+            if(d>23.5999865){
+            pwm_tpm_CnV(TPM0, 1,0); //tras esqeurdo 
+            pwm_tpm_CnV(TPM0, 2,m1); //frente esquerdo
+            pwm_tpm_CnV(TPM0, 3,m2); //frente direito
+            pwm_tpm_CnV(TPM0, 5,0); //tras direito
             contador = 0;
             }
         
-        else if(d_int<20){
-                pwm_tpm_CnV(TPM0, 1,m1-50);
+        else if(d<21.5999865){
+                pwm_tpm_CnV(TPM0, 1,m1+50);
                 pwm_tpm_CnV(TPM0, 2,0);
                 pwm_tpm_CnV(TPM0, 3,0); 
-                pwm_tpm_CnV(TPM0, 5,m2-30); 
-                k_msleep(200);
+                pwm_tpm_CnV(TPM0, 5,m2); 
+               
                 }
-            if(d_int<23 && d_int>20){
+            if(d<23.5999865 && d>21.5999865){
                 pwm_tpm_CnV(TPM0, 1,0);
                 pwm_tpm_CnV(TPM0, 2,0);
                 pwm_tpm_CnV(TPM0, 3,0); 
