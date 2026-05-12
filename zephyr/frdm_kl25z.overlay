@@ -1,0 +1,7 @@
+&gpioa {
+status = "okay";
+};
+
+&gpioe {
+status = "okay";
+};

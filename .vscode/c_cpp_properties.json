@@ -8,27 +8,29 @@
         {
             "name": "PlatformIO",
             "includePath": [
-                "C:/Users/Aluno/Documents/PlatformIO/Projects/260512-130328-zephyr-blink/include",
-                "C:/Users/Aluno/Documents/PlatformIO/Projects/260512-130328-zephyr-blink/src",
+                "C:/Users/Aluno/Documents/PlatformIO/Projects/ultrassom_final/include",
+                "C:/Users/Aluno/Documents/PlatformIO/Projects/ultrassom_final/src",
                 "C:/Users/Aluno/.platformio/packages/framework-zephyr@2.20701.220422/include",
-                "C:/Users/Aluno/Documents/PlatformIO/Projects/260512-130328-zephyr-blink/.pio/build/frdm_k64f/zephyr/include/generated",
+                "C:/Users/Aluno/Documents/PlatformIO/Projects/ultrassom_final/.pio/build/frdm_k64f/zephyr/include/generated",
                 "C:/Users/Aluno/.platformio/packages/framework-zephyr@2.20701.220422/soc/arm/nxp_kinetis/k6x",
                 "C:/Users/Aluno/.platformio/packages/framework-zephyr@2.20701.220422/_pio/modules/hal/cmsis/CMSIS/Core/Include",
                 "C:/Users/Aluno/.platformio/packages/framework-zephyr@2.20701.220422/_pio/modules/hal/nxp/mcux/devices/MK64F12",
                 "C:/Users/Aluno/.platformio/packages/framework-zephyr@2.20701.220422/_pio/modules/hal/nxp/mcux/drivers/kinetis",
+                "C:/Users/Aluno/Documents/PlatformIO/Projects/ultrassom_final/lib/pwm",
                 ""
             ],
             "browse": {
                 "limitSymbolsToIncludedHeaders": true,
                 "path": [
-                    "C:/Users/Aluno/Documents/PlatformIO/Projects/260512-130328-zephyr-blink/include",
-                    "C:/Users/Aluno/Documents/PlatformIO/Projects/260512-130328-zephyr-blink/src",
+                    "C:/Users/Aluno/Documents/PlatformIO/Projects/ultrassom_final/include",
+                    "C:/Users/Aluno/Documents/PlatformIO/Projects/ultrassom_final/src",
                     "C:/Users/Aluno/.platformio/packages/framework-zephyr@2.20701.220422/include",
-                    "C:/Users/Aluno/Documents/PlatformIO/Projects/260512-130328-zephyr-blink/.pio/build/frdm_k64f/zephyr/include/generated",
+                    "C:/Users/Aluno/Documents/PlatformIO/Projects/ultrassom_final/.pio/build/frdm_k64f/zephyr/include/generated",
                     "C:/Users/Aluno/.platformio/packages/framework-zephyr@2.20701.220422/soc/arm/nxp_kinetis/k6x",
                     "C:/Users/Aluno/.platformio/packages/framework-zephyr@2.20701.220422/_pio/modules/hal/cmsis/CMSIS/Core/Include",
                     "C:/Users/Aluno/.platformio/packages/framework-zephyr@2.20701.220422/_pio/modules/hal/nxp/mcux/devices/MK64F12",
                     "C:/Users/Aluno/.platformio/packages/framework-zephyr@2.20701.220422/_pio/modules/hal/nxp/mcux/drivers/kinetis",
+                    "C:/Users/Aluno/Documents/PlatformIO/Projects/ultrassom_final/lib/pwm",
                     ""
                 ]
             },
@@ -46,7 +48,7 @@
             ],
             "cStandard": "c99",
             "forcedInclude": [
-                "C:/Users/Aluno/Documents/PlatformIO/Projects/260512-130328-zephyr-blink/.pio/build/frdm_k64f/zephyr/include/generated/autoconf.h",
+                "C:/Users/Aluno/Documents/PlatformIO/Projects/ultrassom_final/.pio/build/frdm_k64f/zephyr/include/generated/autoconf.h",
                 "C:/Users/Aluno/.platformio/packages/framework-zephyr@2.20701.220422/include/toolchain/zephyr_stdint.h",
                 ""
             ],
